@@ -1,0 +1,25 @@
+Topic: DDatabase
+Level: none
+
+SYNTAX
+
+
+DESCRIPTION
+dd
+dd cp
+dd rn
+dd -l
+dd rn|title <num>|<old name> <new name>
+dd cp <num>|<old name> rd|ad|rex|od|opd|md|mpd|note|mail
+
+dd add rd|ad|rex|od|opd|md|mpd|note|mail
+dd put rd|ad|rex|od|opd|md|mpd|note|mail
+
+dd rm|delete <num>|<old name>
+
+dd own <num>|<old name>
+dd own|share <num>|<old name> [names]
+
+dd purgable <num>|<name>
+dd protect <num>|<name>
+

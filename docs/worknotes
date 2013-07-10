@@ -1,0 +1,80 @@
+When iterating through mob_list, entries must always pass Is_Valid( ) check before using.  Extracted mobs will stay in mob_list with a valid value of -1 until the update cycle (until update_handler( ) is called).  The check can be performed using position != POS_EXTRACTED instead of Is_Valid( ).
+
+This also applies to player_list.  Entries in player_list may be invalid (extracted).  Always check before attempting to use the player_data pointed by it.  Following tests can be performed:  Is_Valid( ), position != POS_EXTRACTED, In_Game( ).  Note: Char_Data* :: Seen( Char_Data* ) also performs a validity check, when removing Seen( ) for any particular reason, make certain the vital check is not going unmade.
+
+Other checks which can be performed to check validity: ch->room != NULL
+Note:  These checks can only tell if something is valid.  Failure in a test does not prove invalidity.
+
+mob_list and player_list do not contain NULL entries, no check is required for this.
+
+When Extract( ) is called on a char_data*, all memory allocated to the pointers within the class are deallocated and pointers pointed to NULL, all numeric values are set to 0 except for valid which is set to -1 and position which is set to POS_EXTRACTED.  The char_data* IS NOT removed from mob_list or player_list until after later.
+
+Same applies for obj_list, use Is_Valid( ) to check.
+
+The state of mud can change drastically from before to after calling of the OLC proc executer execute( ).  For instance, the char_data*, obj_data* that was being used may no longer be valid.  Always make sure Is_Valid( ) passes before using any char_data* or obj_data* that was referenced before the calling of execute( );
+
+Some major functions which call execute( ) are: attack( ), interpret( ), can_kill( ) when the 3rd argument is not FALSE, join_fight( ), is_aggressive( ), damage_functions, inflict( ).  The general rule is knowing exactly what an undocumented function is doing before including in any part of code.
+
+
+ch->fighting is non-NULL only when ch is fighting something in the same room.  The low-level movement routine Char_Data :: From(...) ensures that ch->fighting is NULL'ed when ch is moved out of the room.  There should never be a case where ch->fighting is pointing to someone not in the same room.
+
+
+[BUG]  The 'at' command moves the ch's location without using From(...) and To(...).  Because the normal checks where missed by the implementor, ch->fighting was left unchecked. *CRASH*  (This might be already fixed)
+
+
+spell_functions -- THIS DOC IS OUT OF DATE WITH TRE
+
+bool spell_function( char_data* ch, char_data* victim, void* vo, int level, int duration )
+
+Spell functions are not just called from do_cast, the generic cast routine, but can also happen from quaffing, reciting, drinking, etc.  Any spells written should be coded with this in mind.  When coding a spell function, the most easiest way of telling how it was called is by checking the following conditions:
+
+Quaff:
+  ch == NULL && victim != NULL && vo == NULL && duration > 0
+
+Drink:
+  ch == NULL && victim != NULL && vo == NULL && duration == -1
+
+Dip:
+  ch != NULL && victim == NULL && vo != NULL &&  duration == -3
+
+Instant cast:
+  ch != NULL && victim != NULL && vo == NULL && duration == -1
+
+Normal cast:
+  ch != NULL && duration == 0
+
+Throw liquid:
+  ch != NULL && victim != NULL && vo == NULL && duration > 0
+
+Throw potion, Zap, Recite
+  ch != NULL && victim != NULL && vo != NULL && duraction > 0
+
+
+
+Fill:
+  ch == NULL && duration == -4
+
+
+Apart from with normal cast, no target checking is done.  Fill is unimplemented.
+
+
+Light and Weight
+
+
+Weight is stored in a static variable.  Use From( ) before changing any object values that may affect the weight and To( ) to put it back.  Don't forget consolidate( ).  The following things may affect the weight of an object:
+ - Value[1] for ITEM_DRINK_CON  (quantity of drink containers)
+ - For weapons and armor, or things set OFLAG_RANDOM_METAL, the metal types
+ - The quantity of the object!
+ - Anything that could change the weight of the contents.  ie. put things in bags.
+
+Possible links:
+
+cast->target
+ch->fighting
+ch->reagent
+
+
+
+Cast_Data:
+
+Reagents must only come from the ch->contents!

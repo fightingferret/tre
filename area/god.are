@@ -1,0 +1,921 @@
+#AREA
+Minas Zemus~
+imm Contracting Corp and Ilnor~
+~
+
+0 200
+0
+#ROOMS
+
+#3
+The Path of Death~
+Pain flashes across your consciousness and you writhe under its
+intensity.  You are surrounded by bright light and billows of smoke and
+the sound of screams from millions of dead souls who've come this way
+before...
+
+And then there is silence.  And you.
+
+Still coughing from the smoke, you look around you.  You are on a
+suspended pathway of stone, like a bridge arching from one plane to the
+next.  Billows of white smoke float up on either side of the archway, and
+you see the path stretching before you to the north.  You have no choice
+but to move forward to meet your fate.
+~
+~
+301498421 0 6 0
+E
+1 east~
+You see the east.~
+E
+lever~
+This is a wrought iron bar protruding from the wall, with a small,
+rectangular slot directly beneath it.  
+~
+E
+a void~
+none~
+A
+pull~
+lever~
+send_to_char( #to_char, ch );
+act_notchar( #to_room, ch );
+~
+E
+to_char~
+You pull the lever and are struck by a small fish which shoots out of the
+slot.  
+~
+E
+to_room~
+$n pulls a lever and is struck by a fish shot from a slot in the wall.
+~
+!
+0 0 0
+1 17 1509949540 -2 0
+-1
+S
+
+#4
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#5
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#6
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#7
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#8
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#9
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#10
+Null Room~
+Null Room - Do Not Build here.
+~
+~
+301501452 0 9 0
+-1
+S
+
+#11
+Akriin's Office~
+Soft, white carpet stretches across the floor, running from wall to wall.
+The walls themselves are pure white, with not even the slightest mark or
+dent to be found.  A small, wooden door rests in the center of the east
+wall, its silver doorknob shining.  The room has been illuminated with no
+apparent source.  A large map covers nearly the entire north wall.  A small
+gold-plated @esubtitle@n rests at the bottom of the map.
+~
+~
+1375521804 0 9 0
+D1
+massive oak door~
+massive oak door east~
+131 -1 12 10 10 6
+E
+subtitle~
+The small gold plate is blank.
+~
+A
+east~
+~
+~
+!
+0 0 0
+A
+test~
+~
+rch = find_player( "azrothi" );
+obj_to_char( oload( 3441 ), rch );
+~
+!
+0 0 0
+2978 17 1509949540 -2 0
+3385 17 1509949540 -2 0
+3418 17 1509949540 -2 0
+24 17 1509949540 -2 10
+-1
+S
+
+#12
+Main Conference Room~
+Obviously used for presentations, meetings, and probably a variety of
+other, less fastidious occasions, this room is a study in flexibility.
+The floor, covered in a mosaic made from various colors and sizes of
+dragon scales, depicts a map of the known world.  Colorful and beautiful
+and, at the same time, tough and virtually impervious to normal wear, it
+provides a surface that is littered with a variety of informal lounging
+furniture.  Couches, chairs, and large dragonhide bags stuffed with some
+granular material line most walls, while other contriviances, obviously
+meant for other than humanoids are generously intersperced.
+~
+~
+1375505565 0 9 0
+D0
+~
+~
+0 -1 13 10 10 6
+D1
+~
+~
+0 -1 15 10 10 6
+D2
+~
+~
+0 -1 14 10 10 6
+D3
+~
+~
+131 -1 11 10 10 6
+A
+test~
+~
+obj_to_char( oload( 30 ), ch );
+~
+!
+0 0 0
+-1
+S
+
+#13
+Immortal Library~
+Plain, undecorated branawood @eplanks@n provide a sturdy, if unremarkable,
+floor.  The grey tinted wood gleams with the faint touch of @ewer'la@n, a
+silvery, translucent solution often used for fire-proofing scrolls and
+important charters.  The floor is complimented by the smooth, smokey @ewalls@n
+of Voalethi @eshale@n, its crystalline splinters of quartz matching the
+wer'la's own myriad of sparkles.  The only noticable decoration on the
+walls is a medium-sized @etapestry@n centered up on the northern one.
+~
+~
+1375504533 0 9 0
+D2
+~
+~
+0 -1 12 10 10 6
+E
+planks~
+The branawood has been well-tended over the passage of time, still
+appearing as fresh as when they were first cured for construction use.
+While the prevalent color is a soft grey, a few glimpses of bone white are
+noticable in the grain.
+~
+E
+3 wer'la~
+The floor has been soaked with the substance for centuries, providing a
+one would doubt a fire would ever find a comfortable grasp upon this
+enclosure.
+~
+E
+4 walls shale~
+Like the floor, the Voalethi shale is a light grey, the color of clouds
+bearing light, pleasant rain.  The stone is still in its pure form, the
+scattering of quartz fragments not having gone through the Verani Process,
+the means by which the quartz is magically removed to 'sanctify' the stone
+for its more common use in the construction of religious centers.
+~
+E
+tapestry~
+The tapestry bears the image of a solitary man wielding a lantern in one
+hand and a book in the other.  The common robes of a monk have been
+stitched in a sombre carbuncle, the standard uniform of a Brevelian
+priest.  The figures brow is wrinkled in thought, the eyes locked onto the
+hidden pages of the unnamed tome.
+
+A caption has been woven along the lower border, reading:
+@M"In knowledge is truth born, through truth is power gained, through power
+is the will to resist temptation, and through the will is the salvation of
+the pious mind."@n
+@eSaint Brevel, Master Notician of the Order of the Open Mind@n
+~
+A
+lookup~
+ophelius~
+act_tochar( "Ophelius:", ch );
+act_tochar( #char, ch );
+~
+E
+char~
+The epitome of vyan, I'm rude to lesser races and wary of others with
+skill.  You won't catch me in a PK zone, unless I'm going to kill someone
+or pop something.  haughty in the extreme, he's so arrogent that he spends
+alot of time soloing, seeing as how most people aren't worthy of his
+presence.  (note, this could cause a bit of conflict since most people
+won't get to see me roleplay, and when they do, they will probably be
+pissed about it and just call me an asshole)
+oh, and I hate elves
+~
+!
+0 0 0
+A
+lookup~
+Sarrevan~
+act_tochar( "Sarrevan:", ch );
+act_tochar( #char, ch );
+~
+E
+char~
+I believe that all races are lesser than I.  Only others of more
+experience of life do i truely listen to and even then if they are not of
+my breed i may ignore them.  humans can be worked with if they see the
+truth of the dark ways.  other wise the monkies should be destroyed .  i
+will try to led those of lesser knowledge than my self, even if this means
+i must put my self in harms way now and then.  I will take advantage of a
+situation if the mood strikes me, i live to impower myself and further the
+destruction of the light.
+~
+!
+0 0 0
+A
+lookup~
+meina~
+act_tochar( "Meina:", ch );
+act_tochar( #char, ch );
+~
+E
+char~
+Meina is a lawful good elven cleric.  She is a casually friendly person,
+but stays aloof from most non-llewyrr people until they have proven their
+worth.  Curing is her passion, and second to that is her desire to be
+important.  To both ends, she struggles to overcome her distaste of the
+vulgar human race, and associate with humans, but still refuses to learn
+the repulsive language.  As far as the darker races are concerned, she
+only hate vyans.  She refuses to associate with any darker creatures
+except goblins, and even then only accepts goblins who are willing to
+worship her and do her will.  So far none have been found.  Her disdain is
+created more by fear than by hate.  Meina is terrified of ogres and trolls
+and orcs because they are larger and intimidating.  She hates vyans because
+when she was little her homeland was invaded by a group of assorted darker
+creatures, led by a crafty and evil vyan.  Also because vyans are such
+perversions of the natural order -- a mutation of the beautiful and good
+intentioned elves.  As far as actually killing these people...  Her lawful
+and good beliefs prohibit her from tracking down and assassinating solitary
+dark creatures, but also force her into overcoming her fears of the groups
+of powerful beings occasionally in order to bring the evil bastards to
+justice.  She will not raise a hand against gnomes or elves.  She is
+rather vain and must be complimented regularly or she gets huffy.  Meina
+enjoys the company of her clan, army, and most of all her close companion
+Tegster.  She has a fiesty spirit and a hot temper at times, but is so
+easily scared when her bluff is discovered that she frequently hides and
+trembles.  Her feelings are easily hurt.
+~
+!
+0 0 0
+A
+lookup~
+asmodai~
+act_tochar( "Asmodai:", ch );
+act_tochar( #char, ch );
+~
+E
+char~
+- I'm not willing to group with those of good alignment unless they are
+the top of their class.  i.e.  sinary (if she were good aligned) would
+still be able to group with me.  This will become alot more pronounced as
+levels increase.
+- I'm also an asshole (very differant from IRL *grin*).
+- I hate elves, and won't group with them unless they are at the top of
+their class.  Their has so far only been one exception to this, I group
+with Ingra when I can, so as to put him at the top of his class.
+- As you can see, I only respect a few people in this game, and only
+because of skill.  For the most part, I have very little interest in RPing
+anything, but since it's something the Imms are trying to improve the
+overall quality of the mud I figured I would at least register.
+~
+!
+0 0 0
+3403 17 1509949540 -2 0
+3414 17 1509949540 -2 0
+2269 9 1509949540 3 0
+-1
+S
+
+#14
+Builders' Show-and-Tell Room~
+Nooks, crannies, shelves, drawers, cupboards, trunks, chests, and even the
+occasional closet fill all but a small central area, wherein sits a sturdy
+table.  Evidently, this is where perverse immortals design, build, and then
+abandon their most depraved creations.  Various body parts overflow several
+of the chests, mixed together without rhyme or reason.  On the shelves lie
+parts of various objects, forsaken in the rush to production.  Peeking out
+of the most concealed nooks are crippled remnants of forgotten Rdescs,
+huddling in misery with their Extra cousins.
+~
+~
+1375505564 0 9 0
+D0
+~
+~
+0 -1 12 10 10 6
+A
+push~
+button~
+~
+!
+0 0 0
+-1
+S
+
+#15
+Refreshments~
+Immortals are slobs!
+
+Just look at this place! What would your mother say... if you had a mother, that is?
+~
+Where are all the refreshments?
+~
+1375505565 0 9 0
+D1
+~
+~
+0 -1 16 10 10 6
+D3
+~
+~
+0 -1 12 10 10 6
+D5
+~
+~
+0 -1 21 10 10 6
+3421 17 1509949540 -2 0
+-1
+S
+
+#16
+Coders' Workroom~
+Centeral area within the wizards' block.
+~
+~
+1375505565 0 9 0
+D0
+~
+~
+0 -1 17 10 10 6
+D1
+~
+~
+0 -1 19 10 10 6
+D2
+~
+~
+0 -1 18 10 10 6
+D3
+~
+~
+0 -1 15 10 10 6
+D5
+~
+~
+0 -1 20 10 10 6
+-1
+S
+
+#17
+Snippet Storage~
+Under Construction.
+~
+~
+1375505565 0 9 0
+D2
+~
+~
+0 -1 16 10 10 6
+-1
+S
+
+#18
+Lilith's Mortal Interview Room~
+This is not a happy room.  That is easily inferred from the decor; early
+dungeon era is overlaid with subtle overtones of demesne of the damned.
+The basic requirements are all present; an iron maiden beckons from the
+corner, while a beautifully machined set of thumbscrews (graduated in size
+from infant pixie to adult ogre) lie in their hand-carved vaasawood case
+along the eastern wall.  Next to that case rest two pairs of adamantine
+boots (one size cripples all), and the entire southern wall is filled with
+a built-in display case containing a plethora of knives, hooks, clamps,
+irons, pincers, and other, smaller implements.  The fireplace on the
+western side of the room boasts an ingenious bellows device to enable the
+rapid heating of whatever tool is to be used, while a simple desk in the
+northwest corner of the room provides the space needed for Lilith to write
+down whatever might be blurted out by her clients in extremis.  Occupying
+the center of the room is a gleaming rack that has been fashioned from
+several kings' ransoms worth of mithril by an artisan who obviously loved
+his work.
+~
+~
+1375505597 0 9 0
+D0
+~
+~
+0 -1 16 10 10 6
+E
+iron maiden~
+This iron maiden appears, on closer examination, to be made of pewter
+rather than the more plebian iron.  Big enough to accomodate even the
+largest adventurer, the infernal device is hinged and can be opened to
+allow the victim to be placed inside.  Although closed now, if it is
+similar to its kin, it will have a plenitude of extremely sharp spikes
+connected to the hinged section that will slowly pierce the entity inside
+as the door is closed.  The partially congealed trickle of blood draining
+from the bottom might make someone with a suspicious mind wonder if the
+maiden were currently occupied.
+~
+E
+adamantine 4 boots~
+The oversized boots, made of highly polished adamantine, sit against the
+eastern wall.  The boots are hinged, allowing them to be opened
+sufficiently to force someone's foot inside.  One of the boots lies
+partially open, allowing a view of the interior, purposely designed to
+painfully crush as many of the small bones in the victim's foot as
+possible.
+~
+A
+none~
+~
+end;
+mob = mob_in_room( 2266, room );
+act_tochar( #gesture, ch );
+act_notchar( #rgesture, ch );
+wait( 1 );
+if( random( 1, 2 ) == 1 )
+  mpcode( mob_in_room( 2267, room ), 1 );
+else
+  mpcode( mob_in_room( 2268, room ), 1 );
+~
+E
+gesture~
+Lilith makes a sharp, indicative gesture toward you.
+~
+E
+rgesture~
+Lilith makes a sharp, indicative gesture toward $n.
+~
+!
+0 0 0
+A
+1 rest 1 meditate 3 sleep 2 sit~
+~
+if( find_stat( ch, level ) > 200 )
+  continue;
+else
+  mob = mob_in_room( 2266, room );
+interpret( mob, "say You dare to make yourself comfortable in my presence!?" );
+acode( room, 1 );
+~
+!
+0 0 0
+A
+quit delete 1 north~
+~
+if( find_stat( ch, level ) > 200 )
+  continue;
+else
+  mob = mob_in_room( 2266, room );
+interpret( mob, "say Oh, no, pathetic mortal.  Did you truly think escape would be that simple?" );
+acode( room, 1 );
+~
+!
+0 0 0
+A
+1 pray~
+~
+if( find_stat( ch, level ) > 200 )
+  continue;
+else
+  mob = mob_in_room( 2266, room );
+interpret( mob, "say Your puny gods can't help you here!" );
+acode( room, 1 );
+~
+!
+0 0 0
+A
+note~
+post~
+if( find_stat( ch, level ) > 200 )
+  continue;
+else
+  mob = mob_in_room( 2266, room );
+interpret( mob, "say You were not given permission to communicate with anyone outside of this room!" );
+acode( room, 1 );
+~
+!
+0 0 0
+A
+climb~
+~
+interpret( mob_in_room( 2266, room ), "say No!" );
+~
+!
+0 0 0
+2266 41 1509949540 3 0
+2268 73 1509949540 3 0
+2267 73 1509949540 3 0
+3408 17 1509949540 -2 0
+-1
+S
+
+#19
+Puiok's Office~
+Books and papers of all sorts of genre scatter across the three wide
+tables in this room.
+~
+~
+1375505565 0 9 0
+D3
+~
+~
+0 -1 16 10 10 6
+D5
+~
+~
+0 -1 11 10 10 6
+-1
+S
+
+#20
+Room~
+~
+~
+1375505565 0 9 0
+D1
+~
+~
+0 -1 21 10 10 6
+D4
+~
+~
+0 -1 16 10 10 6
+-1
+S
+
+#21
+The Void~
+~
+~
+1375505565 0 9 0
+D3
+~
+~
+0 -1 20 10 10 6
+-1
+S
+
+#39
+Town Street~
+@G+=--------------------------------------------------------------------------=+
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|            @GPPPPPPPPPP                                                      |
+|           @GPPPPPPPPPPP                        @BPPP           @yPPP   PPP       |
+|          @GPPPP     PPPP@n        PPP            @BPPP          @yPPPP  PPPP       |
+|          @GPPP     PPPP@n                       @BPPP  PPP     @yPPPP  PPPP        |
+|         @GPPPPPPPPP@n            PPP   @BPPPP     PPPPP                          |
+|         @GPPPP        PP  PP@n   PPP  @BP   PP   PPP PP        @yPPP  PPP          |
+|        @GPPPPP       PP  PP@n   PPP  @BPP  PPP  PPP  PPPP     @yPPP  PPP           |
+|                   @GPPPPPP@n         @BPPPP                                      |
+|                                                                            |
+|                                                                            |
++=--------------------------------------------------------------------------=+
+~
+~
+33164429 1 9 0
+D0
+~
+~
+0 -1 40 10 10 6
+-1
+S
+
+#40
+Puiok's Room~
+@n                       @n @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@n
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e000000@n@E0@n@e00000@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e000@n@E000000000000@n@e0000@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@e00@n@E000@n@e00000@n@E000@n@e0000@n@E0000@n@e00@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e0@n@E00@n@e0000@n0@n@e0@n0@n@E0@n0@n@E0@n0@n@E0@n0@n@e0@n0@e0000@n@E00@n@e0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n@E0@n@e000@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n0@n@E0@n0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@B0@n@b0
+@n                       @n@g0@G0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@E0@n0@n@E0@n0@n@E0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@B0
+@n                       @G0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E000@n@e000000@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0
+@n                       @n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0000000000@n@e000000@n@E0@n@e0
+@n                       @n@e0@n@E0@n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E00@n@e00@n@E0@n@e00@n@b0@n@e0@n@b0@n@e00@n@E0000@n@e00@n@E0@n@e0
+@n                       @n@g0@n@e0@n@g0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0000@n@E0@n@e000@n@b0@n@e0@n@b0@B0@n@e0000@n@E0@n@e0@n@E0@n@e0
+@n                       @G0@n@g0@G0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E000000000000@n@e00@B0@n@b0@B0@n@b0@n@e0@n@E00@n@e0
+@n                       @n@g0@G0@n@g0@G0@n@e0@n0@n@E00000@n@e00000@n@E0@n@e00000@n@E0000@n@e0@B0@n@b0@n@e00@B0
+@n                       @G0@n@g0@G0@n@e0@n@E00@n@e000@n@E0@n@e00@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e00000@n@E00@n@e0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@e0@n@E0@n@e000@n0@n@E0@n@e00@n0@n@e0@n0@n@e00@n@E0@n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e0@n@b0@B0
+@n                       @G0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e@n0@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n000@n@e0@n0@n@e00@n@E0@n@e0@n@b0
+@n                       @n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e00@n000@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e0
+@n                       @n@e0@n@E0@n@e00@n@e0@n@e00@n@E0@n@e00@n00000@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n000@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0
+@n                       @n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e00@n000@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e0
+@n                       @G0@n@e0@n@E0@n@e0@n0@n@e00@n@E0@n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e0@n@b0
+@n                       @n@g0@G0@n@e0@n@E0@n@e0@n0@n@e00@n@E0@n@e00@n0@n@e0@n0@n@e00@n@E0@n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n@E0@n@e0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n@E00@n@e000@n@E0@n@e00@n0@n@e0@n0@n@e0@n@E0@n@e0@n0@n@e0@n0@n@e00000@n@E00@n@e0@n@b0@B0@n@b0
+@n                       @g0@G0@n@g0@G0@n@e00@n@E0000@n@e000000@n@E0@n@e00000@n@E0000@n@e00@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@n@e0000@n@E000000000000@n@e0000@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e0@n@E00@n@e000@n@E0@n@e000@n@E0@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e00@n@E0@n@e00@n@E0@n@e0@n@E00@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n@E0000@n@e00@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n@E000@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e0000000000@n@E0@n@e0@n@E0@n@e0@n@E0@n@e0000000000@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n@E0000000000000000000000000@n@e0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e00000000@n@E0@n@e000@n@E0@n@e000@n@E0@n@e00000000@B0@n@b0@B0
+@n                       @n @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n@b0@B0@n@b0@n@e0@n@b0@B0@n@b0@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n
+~
+~
+33164428 1 9 0
+D0
+~
+~
+0 -1 62 10 10 6
+D2
+~
+~
+0 -1 39 10 10 6
+D3
+~
+~
+0 -1 41 10 10 6
+-1
+S
+
+#41
+Bigger Picture~
+@n       @n  @G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@e00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@n
+@n       @G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@n@e000000000000@n@E00@n@e0000000000@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@g00@G00@n@g00@n@e000000@n@E000000000000000000000000@n@e00000000@n@b00@B00@n@b00@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@g00@G00@n@e0000@n@E000000@n@e0000000000@n@E000000@n@e00000000@n@E00000000@n@e0000@B00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@e00@n@E0000@n@e00000000@n00@n@e00@n00@n@E00@n00@n@E00@n00@n@E00@n00@n@e00@n00@e00000000@n@E0000@n@e00@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@e00@n@E00@n@e000000@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n00@n@E00@n00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@B00@n@b00
+@n       @n@g00@G00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@E00@n00@n@E00@n00@n@E00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@B00
+@n       @G00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E000000@n@e000000000000@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00
+@n       @n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00000000000000000000@n@e000000000000@n@E00@n@e00
+@n       @n@e00@n@E00@n@e0000@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E0000@n@e0000@n@E00@n@e0000@n@b00@n@e00@n@b00@n@e0000@n@E00000000@n@e0000@n@E00@n@e00
+@n       @n@g00@n@e00@n@g00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00000000@n@E00@n@e000000@n@b00@n@e00@n@b00@B00@n@e00000000@n@E00@n@e00@n@E00@n@e00
+@n       @G00@n@g00@G00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E000000000000000000000000@n@e0000@B00@n@b00@B00@n@b00@n@e00@n@E0000@n@e00
+@n       @n@g00@G00@n@g00@G00@n@e00@n00@n@E0000000000@n@e0000000000@n@E00@n@e0000000000@n@E00000000@n@e00@B00@n@b00@n@e0000@B00
+@n       @G00@n@g00@G00@n@e00@n@E0000@n@e000000@n@E00@n@e0000@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e0000000000@n@E0000@n@e00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@e00@n@E00@n@e000000@n00@n@E00@n@e0000@n00@n@e00@n00@n@e0000@n@E00@n@e0000@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e00@n@b00@B00
+@n       @G00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e@n00@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n000000@n@e00@n00@n@e0000@n@E00@n@e00@n@b00
+@n       @n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e0000@n000000@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e00
+@n       @n@e00@n@E00@n@e0000@n@e00@n@e0000@n@E00@n@e0000@n0000000000@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n000000@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00
+@n       @n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e0000@n000000@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e00
+@n       @G00@n@e00@n@E00@n@e00@n00@n@e0000@n@E00@n@e0000@n00@n@e00@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e00@n@b00
+@n       @n@g00@G00@n@e00@n@E00@n@e00@n00@n@e0000@n@E00@n@e0000@n00@n@e00@n00@n@e0000@n@E00@n@e0000@n00@n@e00@n00@n@e00@n00@n@e00@n00@n@e0000@n@E00@n@e00@n@b00@B00
+@n       @G00@n@g00@G00@n@e00@n@E0000@n@e000000@n@E00@n@e0000@n00@n@e00@n00@n@e00@n@E00@n@e00@n00@n@e00@n00@n@e0000000000@n@E0000@n@e00@n@b00@B00@n@b00
+@n       @g00@G00@n@g00@G00@n@e0000@n@E00000000@n@e000000000000@n@E00@n@e0000000000@n@E00000000@n@e0000@n@b00@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@g00@G00@n@g00@n@e00000000@n@E000000000000000000000000@n@e00000000@B00@n@b00@B00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@e00@n@E0000@n@e000000@n@E00@n@e000000@n@E00@n@e00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@e0000@n@E00@n@e0000@n@E00@n@e00@n@E0000@n@e00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@n@e00@n@E00000000@n@e0000@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@n@e00@n@E000000@n@e00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@e00000000000000000000@n@E00@n@e00@n@E00@n@e00@n@E00@n@e00000000000000000000@B00@n@b00@B00
+@n       @G00@n@g00@G00@n@e00@n@E00000000000000000000000000000000000000000000000000@n@e00@B00@n@b00
+@n       @n@g00@G00@n@g00@G00@n@e0000000000000000@n@E00@n@e000000@n@E00@n@e000000@n@E00@n@e0000000000000000@B00@n@b00@B00
+@n       @n  @n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@G00@n@g00@n@e00@n@b00@B00@n@b00@n@e00@n@b00@B00@n@b00@n@e00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n@b00@B00@n
+~
+~
+33164428 1 9 0
+D1
+~
+~
+0 -1 40 10 10 6
+-1
+S
+
+#47
+Tahuantinsuyo~
+This is by no means an accurate or to scale representation of this
+world. This map is merely provided as a tool to aid you in your 
+conceptualization of the geopolitical layout of this world.
+The biggest misrepresentation this map gives is the illusion that Human
+region (Chiiron and Medienne) is both central and considerably larger
+than the other regions. This is simply not the case - we simply have not
+completed the other regions and cannot provide a similar level of detail.
+
+D =3D=3D Dwarves           * =3D=3D Trees
+G =3D=3D Gnomes           ^^ =3D=3D Crag Steep Hills
+O =3D=3D Orcs              ^ =3D=3D Hills
+T =3D=3D Trolls            w =3D=3D Grasslands
+C =3D=3D Contrast Drow     s =3D=3D Swampy
+E =3D=3D Woodland Elves   /\ =3D=3D Mountains
+K =3D=3D K'ssk             % =3D=3D Marsh
+H =3D=3D Human             _ =3D=3D Desert
+
+
+                                         ______________________
+___                                     / \
+   \                                   / /\\      /\
+    \_____                          __/     |(T)
+          |       Ocean             |  ^^  /|    /\
+       /\ \__/\                     /  /\   | /\
+     /\  /\ ^^ ----\             --- /\  /\/\\/\^^/\
+    ^   *^^^ /\^^   ------- --  //\/\ ^^^ /\/\\\ /\/\
+     ^^******^^  /\/\ ^^/\^V^^\/^^/\^^/\ /\ /\^|^^
+     /\(*(C)***/\ ^^   /\  Kha-da \/\/\^/\/\/\ /| **********
+    /\ \/****^^ ^/\^/\ /\/\/\(D)/\^/\/\/\   ***|*(E)**^*****
+      ^ --- /\%/\/\%%/\/\/\/\/\/\^^ ^/\  ***^**|****/\****
+      ^/\    ^%%%% /\%/\ ^^ /\/\ /\  /\  *****/**********
+         ^^ %%%%%^^%% %%/\/\^^ /\ ^^/\ ^  **//****^******
+           %% ^%%%% % ^^/\ /\ /\/\/\  /\ ^   |*******^
+             ^ ^^  ^^/\/\/\/\ /\/\/\/\ /\^/\ |/\/\
+            /\ /\ /\/\/\/-\ _^/----\/\/\ /\ /  /\
+           /\ /\/\/\/\/    V   ^    \/\/\/\ |\
+            /\ /\ /\ <              / ****/\|
+            /\ /\ //\ \  Northern  //\****/\| ^  ^^
+             ^^ /\ /\ |     Sea    | ****/\/\
+           /\ /\ /\/\^ \         Medienne /  \
+           /\ Chiiron ^^\        /  (H)/\//\  \ ^^
+          /\  ^/\  (H)^^ |       \ /\/\//  ^   \
+           /\ /\ ^ ^^ ^/\<        |/\/\/  ^     \
+            /\^^ /\/\/\/\\\_    _/ /\ //\      ^ \
+             /\/\ /\^^/\/\/\\_ / /\/\/^/\  ^  ^^  \
+                  /\ /\ ^/\/\ ^ /\ // /\ ^ ^^   ^  \
+                ^  ^  ^/\ /\/\ ^ /\/ ^ ^^__^_ ____ ^\           **
+                        ^  /\ /\ ^/  ^__ _ __ ___^_  \ ^      ss  ss
+                  ^ ^  ^ ^       /   _ __ __ ____ __  \ w^  ***s  * **
+               ^     ^     ^ ^  /  ____ _ _  ^___^__^ w\__s  s  s s*s
+                    ^  (G)   __|^  __ __ _^___ ^^____    w\ w **(K) ss
+                     ^   ___/       ^__^______^^w ^  w     \w ss *** s
+                ^       ^ ^   ^  ^        ^   ^         w ^  sw ss *s
+                      ^     ^   ^    ^  ^ w    w (O)  w     ww s* s*
+                          ^    ^   ^    w   ^   w   w    w    * ss   **
+                                              w   w   ^  w         * s
+                        ^         ^        w   w     ^
+                                                 w www  w
+                                            w             w
+                                       ^       w   w   w
+                                          ^           w
+
+~
+~
+301498397 0 9 0
+-1
+S
+
+#62
+Darker~
+@n                       @n @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@n
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e000000@n @n@e00000@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e000@n 00000000000@n@e0000@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@e00@n 00@n@e00000@n 00@n@e0000@n 000@n@e00@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e0@n 0@n@e0000@n0@n@e0@n0@n @n0@n @n0@n @n0@n@e0@n0@e0000@n 0@n@e0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n @n@e000@n0@n@e0@n0@n@e0@n0@n@e0@n @n0@n @n0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0@B0@n@b0
+@n                       @n@g0@G0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n @n0@n @n0@n @n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0@B0
+@n                       @G0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n 00@n@e000000@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0
+@n                       @n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n 000000000@n@e000000@n @n@e0
+@n                       @n@e0@n @n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n 0@n@e00@n @n@e00@n@b0@n@e0@n@b0@n@e00@n 000@n@e00@n @n@e0
+@n                       @n@g0@n@e0@n@g0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0000@n @n@e000@n@b0@n@e0@n@b0@B0@n@e0000@n @n@e0@n @n@e0
+@n                       @G0@n@g0@G0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n 00000000000@n@e00@B0@n@b0@B0@n@b0@n@e0@n 0@n@e0
+@n                       @n@g0@G0@n@g0@G0@n@e0@n0@n 0000@n@e00000@n @n@e00000@n 000@n@e0@B0@n@b0@n@e00@B0
+@n                       @G0@n@g0@G0@n@e0@n 0@n@e000@n @n@e00@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e00000@n 0@n@e0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@e0@n @n@e000@n0@n @n@e00@n0@n@e0@n0@n@e00@n @n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e0@n@b0@B0
+@n                       @G0@n@e0@n @n@e0@n0@n@e0@n0@n@e@n0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n000@n@e0@n0@n@e00@n @n@e0@n@b0
+@n                       @n@e0@n @n@e0@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e00@n000@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e0
+@n                       @n@e0@n @n@e00@n@e0@n@e00@n @n@e00@n00000@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n000@n@e0@n0@n@e0@n0@n@e0@n @n@e0
+@n                       @n@e0@n @n@e0@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e00@n000@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e0
+@n                       @G0@n@e0@n @n@e0@n0@n@e00@n @n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e0@n@b0
+@n                       @n@g0@G0@n@e0@n @n@e0@n0@n@e00@n @n@e00@n0@n@e0@n0@n@e00@n @n@e00@n0@n@e0@n0@n@e0@n0@n@e0@n0@n@e00@n @n@e0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n 0@n@e000@n @n@e00@n0@n@e0@n0@n@e0@n @n@e0@n0@n@e0@n0@n@e00000@n 0@n@e0@n@b0@B0@n@b0
+@n                       @g0@G0@n@g0@G0@n@e00@n 000@n@e000000@n @n@e00000@n 000@n@e00@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@n@e0000@n 00000000000@n@e0000@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e0@n 0@n@e000@n @n@e000@n @n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@e00@n @n@e00@n @n@e0@n 0@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n 000@n@e00@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n 00@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e0000000000@n @n@e0@n @n@e0@n @n@e0000000000@B0@n@b0@B0
+@n                       @G0@n@g0@G0@n@e0@n 000000000000000000000000@n@e0@B0@n@b0
+@n                       @n@g0@G0@n@g0@G0@n@e00000000@n @n@e000@n @n@e000@n @n@e00000000@B0@n@b0@B0
+@n                       @n @n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@G0@n@g0@n@e0@n@b0@B0@n@b0@n@e0@n@b0@B0@n@b0@n@e0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n@b0@B0@n
+~
+~
+33164428 1 9 0
+D2
+~
+~
+0 -1 40 10 10 6
+-1
+S
+
+#84
+Mine!~
+Mine! ...  tis all mine ...  thats right i stole it ...  but still its all
+mine!
+Nope, it's mine now.  No more for you.
+~
+~
+301565981 0 9 0
+A
+purge~
+~
+act_tochar( "You cannot purge this room.", ch );
+act_notchar( "$n is trying to purge this room.", ch );
+~
+!
+0 0 0
+A
+clear~
+turnstiles~
+interpret( ch, "get all destiny" );
+interpret( ch, "get all iguana" );
+interpret( ch, "get all theatre" );
+interpret( ch, "junk all.coin" );
+~
+!
+0 0 0
+A
+rotate~
+~
+acode( find_room( 67000 ), 1 );
+~
+!
+0 0 0
+A
+there~
+~
+transfer( ch, find_room( 4 ) );
+~
+!
+0 0 0
+A
+goto~
+~
+if( ch == find_player( "smith", ch ) ) {
+continue;
+};
+else {
+transfer( ch, get_vnum_room( 18 ) );
+};
+~
+!
+0 0 0
+2726 17 1509949540 -2 0
+2726 17 1509949540 -2 0
+2726 17 1509949540 -2 0
+-1
+S
+
+#0
+

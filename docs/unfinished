@@ -1,0 +1,23 @@
+Unfinished works and their intended purpose
+
+
+Description Database - do_ddatabase - descdata.cc
+Intended purpose to have a general space where descriptions can be kept.  Can also be used as a "clipboard" to copy text data to and from different parts of the mud.  Intended to be used with "virtual rooms"(never started).  Another intention was for builders to be able to email descriptions which will be automatically added to the database.(ill coded)
+Known bugs:  The data in the description database does not last through reboots --certain problem with the loading process(load_ddatabase).
+
+"New" Condition Checker - condition.cc, check_funcs.cc
+Intended purpose to provide a means by which certain conditions could be checked to filter mud message displays from certain people. (ie. People who cannot see in the dark)  Was to be used with functions such as info( ... ) and act( ... ) as well as a code_lib function added in library.cc for OLC usage(replacing the "old" condition checker which was originally coded just for OLC).  The entire base code for this was completed but not linked for any of the above mentioned purposes.  It is currently linked to the "ansi" command(do_ansi - misc.cc) for testing.  See condition_checker for documentation.
+
+Ansi command - do_ansi - misc.cc
+Intended purpose: Originally used while trying to determine a way to detect ansi compatibility in a client.  Now a code fragment testing function.
+
+
+
+
+Known bugs
+
+
+Ident checker - ident.cc
+It is believed that something causes this to leaves "zombie" processes that do not clear until the mud is terminated.  In an average runtime with a player count of around 20 to 30, hundreds of these "zombies" can be noticed in the 'ps' output of linux.  (Might not be the ident checker but the connection daemon)
+
+

@@ -1,0 +1,1283 @@
+#AREA
+Rd_Mav_Lan_1~
+Gen Eric~
+~
+
+0 15
+3
+#ROOMS
+
+#100001
+Road Room100001~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100002 0 0 8
+-1
+S
+
+#100002
+Road Room100002~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D2
+~
+~
+0 -1 100001 0 0 8
+D4
+~
+~
+0 -1 100003 0 0 8
+-1
+S
+
+#100003
+Road Room100003~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100004 0 0 8
+D5
+~
+~
+0 -1 100002 0 0 8
+-1
+S
+
+#100004
+Road Room100004~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100005 0 0 8
+D2
+~
+~
+0 -1 100003 0 0 8
+-1
+S
+
+#100005
+Road Room100005~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D3
+~
+~
+0 -1 100004 0 0 8
+D4
+~
+~
+0 -1 100006 0 0 8
+-1
+S
+
+#100006
+Road Room100006~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100007 0 0 8
+D5
+~
+~
+0 -1 100005 0 0 8
+-1
+S
+
+#100007
+Road Room100007~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100008 0 0 8
+D3
+~
+~
+0 -1 100006 0 0 8
+-1
+S
+
+#100008
+Road Room100008~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100009 0 0 8
+D2
+~
+~
+0 -1 100007 0 0 8
+-1
+S
+
+#100009
+Road Room100009~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100010 0 0 8
+D3
+~
+~
+0 -1 100008 0 0 8
+-1
+S
+
+#100010
+Road Room100010~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D3
+~
+~
+0 -1 100009 0 0 8
+D4
+~
+~
+0 -1 100011 0 0 8
+-1
+S
+
+#100011
+Road Room100011~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100012 0 0 8
+D5
+~
+~
+0 -1 100010 0 0 8
+-1
+S
+
+#100012
+Road Room100012~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100013 0 0 8
+D3
+~
+~
+0 -1 100011 0 0 8
+-1
+S
+
+#100013
+Road Room100013~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100014 0 0 8
+D2
+~
+~
+0 -1 100012 0 0 8
+-1
+S
+
+#100014
+Road Room100014~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100015 0 0 8
+D3
+~
+~
+0 -1 100013 0 0 8
+-1
+S
+
+#100015
+Road Room100015~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100016 0 0 8
+D3
+~
+~
+0 -1 100014 0 0 8
+-1
+S
+
+#100016
+Road Room100016~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100017 0 0 8
+D2
+~
+~
+0 -1 100015 0 0 8
+-1
+S
+
+#100017
+Road Room100017~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100018 0 0 8
+D3
+~
+~
+0 -1 100016 0 0 8
+-1
+S
+
+#100018
+Road Room100018~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100019 0 0 8
+D2
+~
+~
+0 -1 100017 0 0 8
+-1
+S
+
+#100019
+Road Room100019~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100020 0 0 8
+D2
+~
+~
+0 -1 100018 0 0 8
+-1
+S
+
+#100020
+Road Room100020~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100021 0 0 8
+D3
+~
+~
+0 -1 100019 0 0 8
+-1
+S
+
+#100021
+Road Room100021~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100022 0 0 8
+D3
+~
+~
+0 -1 100020 0 0 8
+-1
+S
+
+#100022
+Road Room100022~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100023 0 0 8
+D3
+~
+~
+0 -1 100021 0 0 8
+-1
+S
+
+#100023
+Road Room100023~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100024 0 0 8
+D3
+~
+~
+0 -1 100022 0 0 8
+-1
+S
+
+#100024
+Road Room100024~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100025 0 0 8
+D3
+~
+~
+0 -1 100023 0 0 8
+-1
+S
+
+#100025
+Road Room100025~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100026 0 0 8
+D3
+~
+~
+0 -1 100024 0 0 8
+-1
+S
+
+#100026
+Road Room100026~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100027 0 0 8
+D2
+~
+~
+0 -1 100025 0 0 8
+-1
+S
+
+#100027
+Road Room100027~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D2
+~
+~
+0 -1 100026 0 0 8
+D5
+~
+~
+0 -1 100028 0 0 8
+-1
+S
+
+#100028
+Road Room100028~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100029 0 0 8
+D4
+~
+~
+0 -1 100027 0 0 8
+-1
+S
+
+#100029
+Road Room100029~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100030 0 0 8
+D2
+~
+~
+0 -1 100028 0 0 8
+-1
+S
+
+#100030
+Road Room100030~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100031 0 0 8
+D3
+~
+~
+0 -1 100029 0 0 8
+-1
+S
+
+#100031
+Road Room100031~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D3
+~
+~
+0 -1 100030 0 0 8
+D4
+~
+~
+0 -1 100032 0 0 8
+-1
+S
+
+#100032
+Road Room100032~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100033 0 0 8
+D5
+~
+~
+0 -1 100031 0 0 8
+-1
+S
+
+#100033
+Road Room100033~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100034 0 0 8
+D3
+~
+~
+0 -1 100032 0 0 8
+-1
+S
+
+#100034
+Road Room100034~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100035 0 0 8
+D3
+~
+~
+0 -1 100033 0 0 8
+-1
+S
+
+#100035
+Road Room100035~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100036 0 0 8
+D3
+~
+~
+0 -1 100034 0 0 8
+-1
+S
+
+#100036
+Road Room100036~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100037 0 0 8
+D2
+~
+~
+0 -1 100035 0 0 8
+-1
+S
+
+#100037
+Road Room100037~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100038 0 0 8
+D3
+~
+~
+0 -1 100036 0 0 8
+-1
+S
+
+#100038
+Road Room100038~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100039 0 0 8
+D3
+~
+~
+0 -1 100037 0 0 8
+-1
+S
+
+#100039
+Road Room100039~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100040 0 0 8
+D3
+~
+~
+0 -1 100038 0 0 8
+-1
+S
+
+#100040
+Road Room100040~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100041 0 0 8
+D2
+~
+~
+0 -1 100039 0 0 8
+-1
+S
+
+#100041
+Road Room100041~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100042 0 0 8
+D2
+~
+~
+0 -1 100040 0 0 8
+-1
+S
+
+#100042
+Road Room100042~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100043 0 0 8
+D3
+~
+~
+0 -1 100041 0 0 8
+-1
+S
+
+#100043
+Road Room100043~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100044 0 0 8
+D3
+~
+~
+0 -1 100042 0 0 8
+-1
+S
+
+#100044
+Road Room100044~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100045 0 0 8
+D2
+~
+~
+0 -1 100043 0 0 8
+-1
+S
+
+#100045
+Road Room100045~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100046 0 0 8
+D3
+~
+~
+0 -1 100044 0 0 8
+-1
+S
+
+#100046
+Road Room100046~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100047 0 0 8
+D3
+~
+~
+0 -1 100045 0 0 8
+-1
+S
+
+#100047
+Road Room100047~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100048 0 0 8
+D3
+~
+~
+0 -1 100046 0 0 8
+-1
+S
+
+#100048
+Road Room100048~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100049 0 0 8
+D3
+~
+~
+0 -1 100047 0 0 8
+-1
+S
+
+#100049
+Road Room100049~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100050 0 0 8
+D2
+~
+~
+0 -1 100048 0 0 8
+-1
+S
+
+#100050
+Road Room100050~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100051 0 0 8
+D3
+~
+~
+0 -1 100049 0 0 8
+-1
+S
+
+#100051
+Road Room100051~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100052 0 0 8
+D3
+~
+~
+0 -1 100050 0 0 8
+-1
+S
+
+#100052
+Road Room100052~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100053 0 0 8
+D3
+~
+~
+0 -1 100051 0 0 8
+-1
+S
+
+#100053
+Road Room100053~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100054 0 0 8
+D2
+~
+~
+0 -1 100052 0 0 8
+-1
+S
+
+#100054
+Road Room100054~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100055 0 0 8
+D2
+~
+~
+0 -1 100053 0 0 8
+-1
+S
+
+#100055
+Road Room100055~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100056 0 0 8
+D3
+~
+~
+0 -1 100054 0 0 8
+-1
+S
+
+#100056
+Road Room100056~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100057 0 0 8
+D3
+~
+~
+0 -1 100055 0 0 8
+-1
+S
+
+#100057
+Road Room100057~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100058 0 0 8
+D3
+~
+~
+0 -1 100056 0 0 8
+-1
+S
+
+#100058
+Road Room100058~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100059 0 0 8
+D3
+~
+~
+0 -1 100057 0 0 8
+-1
+S
+
+#100059
+Road Room100059~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100060 0 0 8
+D2
+~
+~
+0 -1 100058 0 0 8
+-1
+S
+
+#100060
+Road Room100060~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100061 0 0 8
+D2
+~
+~
+0 -1 100059 0 0 8
+-1
+S
+
+#100061
+Road Room100061~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100062 0 0 8
+D3
+~
+~
+0 -1 100060 0 0 8
+-1
+S
+
+#100062
+Road Room100062~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100063 0 0 8
+D3
+~
+~
+0 -1 100061 0 0 8
+-1
+S
+
+#100063
+Road Room100063~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100064 0 0 8
+D3
+~
+~
+0 -1 100062 0 0 8
+-1
+S
+
+#100064
+Road Room100064~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100065 0 0 8
+D3
+~
+~
+0 -1 100063 0 0 8
+-1
+S
+
+#100065
+Road Room100065~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100066 0 0 8
+D2
+~
+~
+0 -1 100064 0 0 8
+-1
+S
+
+#100066
+Road Room100066~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D3
+~
+~
+0 -1 100065 0 0 8
+D5
+~
+~
+0 -1 100067 0 0 8
+-1
+S
+
+#100067
+Road Room100067~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100068 0 0 8
+D4
+~
+~
+0 -1 100066 0 0 8
+-1
+S
+
+#100068
+Road Room100068~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100069 0 0 8
+D3
+~
+~
+0 -1 100067 0 0 8
+-1
+S
+
+#100069
+Road Room100069~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100070 0 0 8
+D3
+~
+~
+0 -1 100068 0 0 8
+-1
+S
+
+#100070
+Road Room100070~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100071 0 0 8
+D3
+~
+~
+0 -1 100069 0 0 8
+-1
+S
+
+#100071
+Road Room100071~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100072 0 0 8
+D2
+~
+~
+0 -1 100070 0 0 8
+-1
+S
+
+#100072
+Road Room100072~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100073 0 0 8
+D2
+~
+~
+0 -1 100071 0 0 8
+-1
+S
+
+#100073
+Road Room100073~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D1
+~
+~
+0 -1 100074 0 0 8
+D3
+~
+~
+0 -1 100072 0 0 8
+-1
+S
+
+#100074
+Road Room100074~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100075 0 0 8
+D3
+~
+~
+0 -1 100073 0 0 8
+-1
+S
+
+#100075
+Road Room100075~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100076 0 0 8
+D2
+~
+~
+0 -1 100074 0 0 8
+-1
+S
+
+#100076
+Road Room100076~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100077 0 0 8
+D2
+~
+~
+0 -1 100075 0 0 8
+-1
+S
+
+#100077
+Road Room100077~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D2
+~
+~
+0 -1 100076 0 0 8
+D5
+~
+~
+0 -1 100078 0 0 8
+-1
+S
+
+#100078
+Road Room100078~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100079 0 0 8
+D4
+~
+~
+0 -1 100077 0 0 8
+-1
+S
+
+#100079
+Road Room100079~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D0
+~
+~
+0 -1 100080 0 0 8
+D2
+~
+~
+0 -1 100078 0 0 8
+-1
+S
+
+#100080
+Road Room100080~
+Road Description Under Construction~
+~
+33030144 12 8 0
+D2
+~
+~
+0 -1 100079 0 0 8
+-1
+S
+
+#0
+

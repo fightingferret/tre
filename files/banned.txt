@@ -1,0 +1,4 @@
+#BANNED
+
+fake.fake~
+$~

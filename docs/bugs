@@ -1,0 +1,55 @@
+THIS IS A QUICK HACK OF A BUG LIST, IT IS IN NO WAY COMPLETE
+
+General bug list
+
+Auction - auction.cc
+Crashes on returning stolen items to a non-present player
+
+has_mflag (softcode) - library.cc
+Affect flags do not work
+
+Reset_Time - area editing
+Does nothing
+
+Clones -
+Aren't alphabetically listed on the who list
+
+Medit copy -
+Does not copy mpdatas
+
+
+
+Broken Skills:  (Some maybe already fixed)
+Banishment
+Trip (message says something about kicking, should say something about triping.
+Sweeping kick
+Sweep (needs cleaning up)
+Sneak
+Regeneration
+Power strike
+Off-hand attack
+Mounted fighting
+Inspect
+Heist
+Dodge (why do you dodge when you do not have the dodge skill?)
+Disguise
+Disarm (this skill is disabled)
+Camoflauge
+
+
+
+Display bugs
+
+Summon - 
+"Nothing?? slowly fades into existence."
+
+Messages that should not display are sent to people who are asleep, cannot see because of the dark, or cannot see because of an invisiblity, etc:
+Update messages - update.cc (rotting corpse etc)
+Movement messages - move.cc ("cannot follow" etc - wisinvis)
+Wear messages - wear.cc (invisible objects, invisible person, invisible horse, etc)
+Other messages - may exist
+
+Non-singular displays -
+Messages that display with the wrong item count.  
+
+All softcode display functions(act_funcs, send_funcs) should convert the $variables with names in the singular form. --but does not.

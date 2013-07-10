@@ -1,0 +1,637 @@
+#AREA
+Blank~
+Chime~
+~
+
+20 0
+6
+#ROOMS
+
+#78500
+Mine Tunnel~
+Strong wooden beams support the roof of this chiselled out tunnel.  The
+walls of this tunnel are rough, bearing many tool marks with part of the
+northern wall bearing a large gouge.  Crude sconces have been set into the
+walls and hold torches to help keep the area well lit.  The tunnel's smooth
+floor heads towards the east.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78501 10 10 6
+E
+wooden beams~
+These thick beams have been made from a hardwood and line the walls and
+ceiling of the tunnel at regular intervals to provide support and
+stability to the mine tunnel.  It is hard to determine the age of the
+beams but it seems that they have been here for quite some time.
+~
+E
+walls~
+The walls of the tunnels are comprised of a dark grey stone laced with
+minor traces of minerals.  Spider-web like veins of glittering substances
+can occasionally be detected in the walls.  By the many tool marks that can
+be seen on the walls and even the ceiling, it can be guessed that whatever
+precious substances the walls did once bear have now been excavated.
+~
+E
+gouge~
+The gouge has many tool marks to give one the impression that something
+large and much wanted was pried from the wall.  There is nothing to
+indicate exactly what was taken from the wall.
+~
+E
+sconces torches~
+The sconces have been made from a crude iron and are fairly rusty.  The
+rust and poor make of them doesn't prevent them from doing their job of
+supporting torches however.
+~
+-1
+S
+
+#78501
+T-Section in the Mine Tunnel~
+The entrance to the northern offshoot of this tunnel has been shored up by
+thick, wooden beams.  More of these wooden beams line the southern wall and
+ceiling.  The floor is particularly smooth here and shines back some of the
+light from the flickering torches that are mounted on the southern wall. .
+To both the east and west the well lit tunnel continues.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78502 10 10 6
+D1
+~
+~
+0 -1 78503 10 10 6
+D3
+~
+~
+0 -1 78500 10 10 6
+E
+wooden beams~
+Wooden beams have been used to add support to both the walls and ceiling
+of the main tunnel and the entrance to an offshoot to the north.  The
+beams look to have been here for some time.
+~
+E
+floor~
+The floor is fairly smooth and shows signs that this part of the tunnel
+experiences a fair bit of constant foot traffic, so much so that the floor
+is starting to take on a polished aspect.
+~
+E
+torches~
+Brightly burning torches have been mounted in crudely made, rusty sconces
+on the southern wall.
+~
+-1
+S
+
+#78502
+Sleeping Area~
+The bubble-like appearance of this large room suggests that unlike the
+tunnel to the south it is a natural formation.  Its rounded ceiling and
+rippled walls contrast sharply to the almost perfectly rectangular
+entrance.  Large, wooden beams line the sides and the top of the southern
+entrance.  A small fire pit, unlit at present, is in the middle of the room
+and arranged around it are four crude beds.
+~
+place a sleeping dergo here
+maybe search the place for a bit of squirreled loot
+flagged unlit purposely
+~
+301465604 11 6 0
+D2
+~
+~
+0 -1 78501 10 10 6
+E
+wooden beams~
+These large beams have become dull and grey with time with the edges
+starting to shed splinters.  It seems that their function around the
+entrance is to provide support and strength.
+~
+E
+ceiling walls~
+The contours of the walls and ceiling of this room feature many bumps,
+lumps, indents and ripples.  All these features look natural with no sign
+of a tool having touched them.
+~
+E
+crude beds~
+These crude beds have been made by putting a thick layer of hay upon the
+floor then covering that with an old blanket.  All four beds appear to be
+well used with permanent indentations in each of them.  The indentations
+look like they have been made by folk roughly the size of a dwarf.
+~
+E
+fire pit~
+The pit has been made buy using a ring of small rocks to define a set
+area.  In the middle of this ring is nothing but used coals now and a
+tripod contraption.
+~
+23 17 1509949540 -2 0
+-1
+S
+
+#78503
+T-Section in the Mine Tunnel~
+Flickering torches, set in sconces on the northern wall, keep the tunnel
+well lit.  The light the torches provide also illuminate the spidery veins
+of gem-like substances contained within the dark grey rock that makes up
+the walls and ceiling.  The main tunnel heads in an east-west direction
+while a small offshoot head southwards.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78505 10 10 6
+D2
+~
+~
+0 -1 78504 10 10 6
+D3
+~
+~
+0 -1 78501 10 10 6
+E
+torches sconces~
+Rusty sconces of a crude make have been set into the northern wall.  The
+sconces hold torches that keep this area well lit.
+~
+E
+spidery veins rock~
+The dark grey rock that makes up the walls and ceiling of the tunnel is
+laced with spidery veins of glittering minerals.  There are several
+different colours making up the veins, blue, silver, red and even black.
+~
+-1
+S
+
+#78504
+Sleeping Area~
+Wooden beams help to gird the walls and ceiling and prevent the risk of
+cave-ins in this area.  A small fire pit, which looks to get quite a bit
+of use, is positioned in the middle of the room with four rough beds
+arranged around it.  The east and west walls of this room are a dark grey
+stone and bear much evidence that they have been shaped by tools, in
+contrast the southern wall is a pale grey stone and though there are a few
+tool marks it looks to be fairly untouched.
+~
+flagged unlit purposely
+~
+301465604 11 6 0
+D0
+~
+~
+0 -1 78503 10 10 6
+E
+wooden beams~
+These hardwood beams look more than capable of supporting the walls and
+ceiling of this room.  They look as if they have been here for awhile,
+having turned grey with age.
+~
+E
+fire pit~
+This fire has been formed by using a circle of stones.  Within this circle
+is the debris of many past fires as well as a metallic tripod device.
+~
+E
+rough beds~
+These beds have been made using hay and blankets.  Firstly a thick layer
+of hay has been placed upon the floor over which an old blanket has been
+laid.  By the lumps and indentations that can be seen in these makeshift
+beds it seems that something about the size of a dwarf uses them.
+~
+23 17 1509949540 -2 0
+-1
+S
+
+#78505
+Mine Tunnel~
+From this point in the mine tunnels it is possible to head east, west or
+north.  In each of these directions the tunnels are well lighted by the
+use of torches mounted in sconces upon the walls.  This part of the tunnel
+has also been lit using the same method with the torches having been placed
+upon the southern wall.  Sturdy beams, made from a hardwood, line the walls
+and ceilings at regular intervals.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78513 10 10 6
+D1
+~
+~
+0 -1 78506 10 10 6
+D3
+~
+~
+0 -1 78503 10 10 6
+E
+torches~
+Torches have been set into the walls in sconces at set intervals to
+provide this area with light.  The sconces have been made from blackened
+iron and are showing traces of rust.
+~
+E
+beams~
+These wooden beams are thick and have been used to give strength to the
+walls and ceiling of the tunnel.
+~
+-1
+S
+
+#78506
+Bend in the Mine Tunnel~
+The flickering light of the torches illuminate plain stone walls the curve
+from the north around to the east, blocking movement in those directions.
+To the west and south the tunnel curves around a rocky protrusion.  Lying
+on the ground flush with the northern wall is a broken beam, which over
+time has collected a thick layer of dust.
+~
+~
+301465605 11 6 0
+D2
+~
+~
+0 -1 78507 10 10 6
+D3
+~
+~
+0 -1 78505 10 10 6
+E
+torches~
+Torches have been mounted on the north and east walls using plain, black
+iron sconces.
+~
+E
+rocky protrusion~
+This protrusion has been formed by a light grey rock and looks to be a
+natural formation.
+~
+E
+beam~
+This broken wooden beam seems to have been here for a long time if the
+thick layer of dust is anything to go buy.  The dust is largely
+undisturbed except for scuffed areas under the wall mounted torches.
+~
+-1
+S
+
+#78507
+A Sharp Turn in the Mine Tunnel~
+A pile of light grey rocks makes up the southern wall of the tunnel and
+forces the tunnel to turn sharply to the north and west.  The eastern wall
+is of a stone darker in colour than the rubble to the south and has been
+shored up with a few wooden beams.  Two torches have been placed on the
+this wall.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78506 10 10 6
+D3
+~
+~
+0 -1 78508 10 10 6
+E
+pile rocks~
+This pile of rocks goes from floor to ceiling and is composed of
+individual rocks of various sizes and shapes.  It is hard to tell if this
+formation is naturally occurring or is the result of mining.
+~
+E
+beams~
+Wooden beams have been used to lend support to the eastern wall and the
+ceiling.  Most are a faded grey colour except for one close to the pile of
+stones to the south.
+~
+E
+torches~
+These torches have been fixed to the wall using plain, black iron sconces.
+~
+-1
+S
+
+#78508
+Twisting Tunnel in the Mines~
+The north and west wall of this section of the mine tunnels skirt around a
+pile of grey stones that lie to the south-east.  Some of the stones have
+tumbled onto the floor of the tunnel and make footing a bit precarious.
+Wooden beams have been used along the western wall and ceiling, while both
+the north and west walls bear torches.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78507 10 10 6
+D2
+~
+~
+0 -1 78509 10 10 6
+E
+stones pile~
+Many stones of various sizes and shapes makes up this pile that goes from
+floor to ceiling.  There are no signs of how they came to be here, it could
+be just a natural formation or the result of a mining accident.  A few of
+the stones have found their way to the tunnel floor and provide a nice
+obstacle course for those passing through here.
+~
+E
+wooden beams~
+Sturdy beam, made from a hardwood, have been used to reinforce the carved
+walls and ceiling.
+~
+E
+torches~
+Fixed to the walls using crude sconces are several torches.  Judging by
+the burn marks on the wall directly behind the torches they are kept
+constantly burning.
+~
+-1
+S
+
+#78509
+Mine Tunnel - At a Pile of Rocks~
+This part of the mine tunnel passes between a solid, dark grey stone wall
+to the west and a wall of pale grey stones to the east.  Wooden beams have
+been used to add support to the western wall and to prevent the pile of
+stones of the eastern wall from tumbling onto the corridor's floor.
+Torches have been places on both walls.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78508 10 10 6
+D2
+~
+~
+0 -1 78510 10 10 6
+E
+wooden beams~
+Many wooden beams have been used to shore up the eastern wall and support
+the western wall and ceiling.  Thick wires have been strung between the
+beams along the eastern wall to further help contain the mass of rocks
+that they are trying to keep in check.
+~
+E
+torches~
+Along the western wall the torches have been mounted on the walls using
+crudely made iron sconces, but on the eastern wall the torches have been
+rammed into available gaps in the stone pile.
+~
+-1
+S
+
+#78510
+At a Corner in the Mine Tunnel~
+Grey walls, laced with many fine streaks of coloured crystals, make up the
+corner walls to the east and south.  Torches on the walls help pick up the
+myriad streaks by allowing them to show off their sparkling properties.
+The tunnel to the north looks like it travels straight for some distance
+in contrast to the way west, which looks to turn northwards after a short
+stretch.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78509 10 10 6
+D3
+~
+~
+0 -1 78511 10 10 6
+E
+fine streaks crystals~
+Thin veins of crystals run through the walls, though they aren't big
+enough to go to the effort of extracting them they are still big enough to
+provide some relief from the dull grey stone that they are embedded in.
+Purples, blues and oranges are the dominant colours in the network of
+crystalline streaks.
+~
+E
+torches~
+Torches flicker and dance in their roughly made sconces, allowing the
+colours in the walls that they are mounted in to provide a dazzling show.
+~
+-1
+S
+
+#78511
+A Turn in the Mine Tunnel~
+A plain, light grey stone makes up the western wall, while a darker grey
+stone, which features the odd fine streak of colour, makes up the majority
+of the southern wall.  The joining of these two walls forces the torch-lit
+tunnel to bend north and east.  The tunnel looks to end to the north, while
+eastward another turn can be seen.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78512 10 10 6
+D1
+~
+~
+0 -1 78510 10 10 6
+E
+torches~
+Sconces, made from blackened iron and roughly formed, hold flickering
+torches at intervals on the walls.
+~
+E
+fine streak colour~
+Illuminated by flickering torches, blues, purples and oranges streak
+through the dark grey of the southern wall.
+~
+-1
+S
+
+#78512
+Mine Tunnel~
+The tunnel ends at this point with all ways bar south surrounded by light
+grey rock walls.  A long table has been set up along the western wall and
+upon its top lay piles of assorted dull crystals and gemstones.  Torches
+aren't the only items that adorn the walls here, a broken pick looks to be
+firmly embedded in the northern wall.
+~
+~
+301465605 11 6 0
+D2
+~
+~
+0 -1 78511 10 10 6
+-1
+S
+
+#78513
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78514 10 10 6
+D2
+~
+~
+0 -1 78505 10 10 6
+A
+~
+~
+mob = mob_in_room( 2272, room );
+if( mob ) {
+  send_to_room( #scoot, room );
+  interpret( mob, "say I said, you dun belong 'ere, now turn back and git outta 'ere." );
+  end;
+  }
+else
+  continue;
+~
+E
+scoot~
+A dergo quickly moves to block the way north.
+~
+!
+3 0 1
+-1
+S
+
+#78514
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78518 10 10 6
+D1
+~
+~
+0 -1 78516 10 10 6
+D2
+~
+~
+0 -1 78513 10 10 6
+D3
+~
+~
+0 -1 78515 10 10 6
+-1
+S
+
+#78515
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78514 10 10 6
+-1
+S
+
+#78516
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78517 10 10 6
+D3
+~
+~
+0 -1 78514 10 10 6
+-1
+S
+
+#78517
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D3
+~
+~
+0 -1 78516 10 10 6
+-1
+S
+
+#78518
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D0
+~
+~
+0 -1 78519 10 10 6
+D2
+~
+~
+0 -1 78514 10 10 6
+-1
+S
+
+#78519
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D1
+~
+~
+0 -1 78520 10 10 6
+D2
+~
+~
+0 -1 78518 10 10 6
+-1
+S
+
+#78520
+Mine Tunnel~
+Under Construction.
+~
+~
+301465605 11 6 0
+D3
+~
+~
+0 -1 78519 10 10 6
+-1
+S
+
+#0
+

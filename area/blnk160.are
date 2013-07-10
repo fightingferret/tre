@@ -1,0 +1,169 @@
+#AREA
+Medienne Ferry~
+Geuis~
+~
+
+0 0
+0
+#ROOMS
+
+#78250
+Inner-Sea Dock - By the Ferry~
+Edging out several feet over the shore and into the grey, murky water of
+the Inner Sea, the dock stands firm against the constant waves.  The
+moorings of several small ships are mounted at the end of the short dock.
+An occasional cold blast of air snaps against a tattered, cloth sign that
+hangs from a piling.
+~
+Inner-Sea Docks #21110
+~
+301465601 3 5 0
+E
+tattered cloth sign~
+Ferry to Chiiron, one gold piece.
+~
+2263 9 1509949540 3 0
+-1
+S
+
+#78251
+Inner-Sea - Near the Shore~
+The water is gray and disturbed, its surface chopped white in the bitter
+wind.  The ferry moves forth into the cold water, leaving the Medienne
+Dock behind.  The shore disappears rapidly as the ferry gains speed on the
+open water.
+~
+~
+301465601 3 9 0
+-1
+S
+
+#78252
+Inner-Sea - On the Water~
+A great expanse of water looms wide in every direction.  Distant storm
+clouds send lightning shows that illuminate the sky for brief moments.
+The wind whips and plays with the sails of the ferry, jerking them hard.
+~
+~
+301465601 3 9 0
+-1
+S
+
+#78253
+Inner-Sea - Journeying Across the Sea~
+Any signs of the distant shores have disappeared into the haze of distant,
+thick weather.  So little light reaches through the thick clouds overhead,
+the water appears dark enough to swallow anything brave enough to cross it.
+The occasional whip of sea water pelts your face as the heavy winds push
+the ferry boat onward.
+~
+~
+301465601 3 9 0
+-1
+S
+
+#78254
+Inner-Sea - Near Chiiron Dock~
+Approaching in the distance are the first signs of land.  Through the fog,
+the rain, the clouds, and the wind-swept water, faint signs of civilization
+can be seen among the hills.  The heavy winds fill the sails of the ferry,
+pushing it along through the water, the salty air stinging your eyes.
+~
+~
+301465601 3 9 0
+-1
+S
+
+#78255
+Inner-Sea Dock - Chiiron Dock~
+The dock here on the western side of the Inner-Sea has been constructed of
+heavy granite slabs that have been erected into a long, solid pier.  Dark,
+white-crested waves drive themselves relentlessly into the stone dock,
+sending up volumes of cold, white spray.  Moorings for ships of various
+sizes have been fashioned into the stone pilings along the dock, some
+rusted from long exposure to the salt air.  An old sign has been carved
+into the granite.
+~
+~
+301465601 4 9 0
+D3
+~
+~
+0 -1 78257 10 10 6
+E
+name old stone sign~
+The old stone sign reads "Ferry, one gold piece."
+~
+2264 9 1509949540 3 0
+-1
+S
+
+#78256
+Foggy Shop of Mysterious Goods~
+A whispy, greenish fog fills this small chamber from the floor to the
+roof.  Through the green mist, tables and cabinets holding a wide variety
+of items can be seen.  The walls of the little room seem to generate a
+small amount of light, illuminating the chamber to the level of a smoky
+tavern.  A small raised stage sits in the middle of the floor, providing
+enough walking room for the owner of the shop.
+~
+~
+301469735 0 9 0
+E
+small raised stage~
+This "stage" is little more than a few creaking boards that have been lain
+over equally decrepit wooden boxes.  It seems to be near falling apart and
+appears quite unsafe.
+~
+2270 9 1509949540 3 0
+2533 17 1509949540 -1 0
+2884 17 1509949540 -1 0
+2886 17 1509949540 -1 0
+2992 17 1509949540 -1 0
+2997 17 1509949540 -1 0
+2998 17 1509949540 -1 0
+2999 17 1509949540 -1 0
+3140 17 1509949540 -1 0
+3036 17 1509949540 -1 0
+-1
+S
+
+#78257
+Chiiron Docks - West of the Seaside~
+West of the docks, the chill air still blows in off the Sea of Stars cool
+enough to make the hardiest yeti shiver.  The Chiiron woods enclose the
+entrance to the docks here, offering potential refuge from the brutality
+of the sea.  A path extends up to the west into the woods, away from the
+docks.
+~
+~
+301465601 4 9 0
+D1
+~
+~
+0 -1 78255 10 10 6
+D3
+~
+~
+0 -1 78258 10 10 6
+-1
+S
+
+#78258
+Path in the Woods~
+The woods are thick here, though a clear cut trail has been worn through
+the trees, providing easy passage.  Occasionaly wildlife can be heard
+echoing through the forest.  The trail winds up to the west and down to
+the east.
+~
+~
+301465601 4 9 0
+D1
+~
+~
+0 -1 78257 10 10 6
+-1
+S
+
+#0
+

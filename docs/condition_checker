@@ -1,0 +1,92 @@
+Currently linked with the 'ansi' command.  Usage: ansi <condition>
+
+Variables:
+       1  ch1        /*  Yourself  */
+
+Functions:
+       mana - e
+       mxmana - E
+       hit - h
+       mxhit - H
+       skill - K
+       level - L
+       position - P
+       cansee - S
+       move - v
+       mcmove - V
+       sex - X
+       constant -
+       permission -
+
+Syntax:
+
+There are two main syntaxes that can be used to call a function.  The
+choice of either is optional and parts can be interchanged.
+
+Syntax 1:
+
+<target>'<function>#<value>
+
+Read as <target>'s <function>, this can be used to quickly get the value
+needed.  #<value> is required only by certain functions.
+
+Syntax 2:
+
+<function>{<value>}<target>  OR  <function>,<target>
+
+Read as <function> of <target>.  For multiple targets, targets can be
+linked: <function>,<target>,<target>,...  {<value>} is required only by
+certain functions.
+
+Spaces are not ignored in the syntax and should be only used in <value>s.
+
+Instead of using normal function names, the short function names can be
+used.  For instance, instead of using "mana", "e" can be used.  This also
+applies to targets, "1"(called "indexed target") can be used instead of
+"ch1".  When an index target is used, the separators which separate the
+<target> from <function> are optional.
+
+
+Joined Targets and Functions:
+
+Multiple targets can be joined together using the : separator.
+<target1>:<target2>:<target3>'<function> means that all three targets
+will be sent to the function and computed as if the function were called
+three times with the three different targets and AND'ed together.
+
+There is a limit to the number that can be joined and a warning may be
+given if the limit is reached.  If the limit is exceeded, an a warning
+will not be given, but the return value will be False.
+
+Same can be done with functions and both can be used at the same time.
+
+
+Enumerated Values:
+
+Some functions support special enumerated values aside from the default
+"true" and "false".  Position function for instance has the position names
+available through comparison.
+
+
+Basic Workings and Primitive Uses:
+
+Listed in the order of precedance, the following binary operations are
+available:
+
+       ( )            Paranthesis
+       * \            Multiply, Divide
+       + -            Add, Subtract
+       > ] < [        Greather than, greater or equal to, ...
+       = !            Equal to, not equal to
+       &              AND
+       |              OR
+
+Simple mathematical operations can be computed with the above.  Decimal
+numbers are unsupported and fractions should be used instead.  Negative
+number are also unsupported but (0-<number>) can achive the same result.
+
+Return Values:
+
+The return value for correct expressions are either True or False.  If
+there is an error in the expression, an error message is returned.
+

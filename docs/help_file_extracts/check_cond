@@ -1,0 +1,111 @@
+Topic: check_cond
+Level: basic
+
+SYNTAX
+
+check_cond( string, char1, char2, object )
+
+PARAMETERS
+
+string - The condition text to be checked
+          (can be literal string or reference to data string)
+char1  - Pointer to char, 'c' target of the function
+char2  - Pointer to char, 'v' target of the function
+object - Pointer to object, 'o' target of the function
+
+DESCRIPTION
+
+The given condition text is checked and an appropriate result is
+returned.
+
+**The default outcome is FALSE in case of an error.
+**If the condition text is empty, "", TRUE is the result.
+
+CONDITION TEXT
+
+Is comprised of one or more operations linked together with '&' (and)
+or '|' (or).  Don't use spaces.
+
+**'&' and '|' are backwards precedented!: F&T|T has a truth value of
+FALSE.  So the operations have to go right to left.  Sorry.  Brackets
+can't be used either to group operations.  :(
+
+OPERATIONS
+
+Are comprised of one variable(see below) or two variables combined with
+an operand(see below).  In case of the one variable situation, adding a
+'!' before or after the variable will toggle its truth value.
+
+VARIABLES
+
+Are comprised of:
+      A possible UPPER case letter signifying a flag (see FLAGS below).
+      A possible lower case letter signifying a target.
+        (One of 'c', 'v', 'o' for char1, char2, object respectively)
+      A possible integer value, used in some cases.
+
+**A target is a must have if a flag is specified.
+
+An example of a variable is "Lc" meaning the level of char1
+
+OPERAND
+
+      >    greater than
+      <    less than
+      =    equal to
+      =    equal to
+      !    not equal to  (don't use for truth toggling)
+      !    not equal to  (don't use for truth toggling)
+      ]    greater or equal to
+      [    less or equal to
+
+FLAGS
+
+For the 'c' or 'v' targets:
+
+    Flags           Value                    Description
+     C           1=hp 2=e 3=mv                 current stat
+     E           100% unless given             maximum energy
+     H           100% unless given             maximum health
+     L               n/a                       level
+     K           skillnumber                   skilllevel
+     P               n/a                       position
+     X               n/a                       sex 1=male 0=female
+
+  Special Flags     Value   Description
+     S               n/a     Sc=v  - char1 can see char2 (can be Sc=Sv)
+                             Sc!v  - char1 can't see char2
+                             Sc    - char1 can see
+                                      (ie. not blind/sleeping)
+                             Sv!   - char2 can't see.
+                             **Sc>Sv doesn't mean char1 sees more than char2
+                             (don't use anything other than '=' or '!')
+
+  For the 'o' target:
+    None so far
+
+RETURNS
+
+0 if FALSE
+1 if TRUE
+
+EXAMPLES
+
+if( check_cond( "Lc]Lv", ch, rch ) )
+  // true if ch's level is higher of equal to rch's level
+if( check_cond( "Sc&C1c>Hv50&K18c>0, ch, rch ) )
+  // true if ch can see and ch's current hp is more than 50% of rch's max
+  // hp and ch knows how to dodge (skill number 18)
+if( check_cond( "Sv=o", ch, rch, obj ) )
+  // true if rch can see obj (rch cannot see obj if rch is sleeping)
+if( check_cond( "Pc=7|Xv=1", ch, rch, obj ) )
+  // true if either ch is fighting (position 7) or ch is male
+
+if( check_cond( "1" ) )       // always TRUE
+if( check_cond( "0" ) )       // always FALSE
+if( check_cond( "1=2" ) )     // always FALSE
+if( check_cond( "0&1|1" ) )   // always FALSE.
+           //see note about backwards precedention above
+
+if( check_cond( "Lc]92", ch ) )   // true if ch is immortal
+

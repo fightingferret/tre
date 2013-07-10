@@ -1,0 +1,4 @@
+#BADNAME
+
+a something~
+$~

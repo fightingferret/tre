@@ -1,0 +1,62 @@
+Topic: cond_act
+Level: basic
+
+SYNTAX
+
+act_func( string, char1, char2, object )
+
+PARAMETERS
+
+string - Driving code of the function, in form "where;condition;text"
+         (can be literal string or reference to data string)
+char1  - Pointer to char, 'c' target of the function
+char2  - Pointer to char, 'v' target of the function
+object - Pointer to object, needed if string contains $p referrence
+
+DESCRIPTION
+
+Displays text to various targets evaluating color_codes and variables. 
+The various targets are determined by the where and the condition clauses.
+
+WHERE CLAUSE
+
+    'c'    char1
+    'v'    char2
+    'r'    the room char1 is in
+    'R'    the room char2 is in
+    'a'    the area char1 is in
+    'A'    the area char2 is in
+    'g'    global
+    'G'    same is above
+
+In addition to ONE of the above, '!' in front of the codes above can be
+used for "not to".  "R!c!v" means to the room char2 is in but not char1
+or char2.  The object is not used in the where clause so cannot be the
+target.  (Please tell me if someone needs otherwise) 
+
+**Don't do anything stupid like "v!v", you WILL get unexpected results.
+Note: The global message is only sent to the area if the area is not
+open.  The global message is only sent to immortal rooms if the area is
+an immortal area.
+
+CONDITION CLAUSE
+
+See 'help check_cond'
+
+In this case, 'c' in check_cond is char1 and 'v' in check_cond is the
+person to sees the message.
+
+ie. cond_act( "r;Lv>Lc;$n tries to hide.", ch );
+Everyone in the same room as char1 sees "Whoever tries to hide." if their
+level higher than char1's.
+
+By default, all act_func() does not send the message to people who are
+sleeping.  In cond_act(), this can be achieved by adding a "Pv>4"
+condition or "Sv".  (the later also checks if the person is blind)
+
+RETURNS
+
+none
+
+EXAMPLES
+
